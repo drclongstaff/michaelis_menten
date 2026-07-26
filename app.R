@@ -2,7 +2,7 @@
 
 library(shiny)
 library(tidyplots)
-# library(tidyverse)
+
 ThisApp <- "Michaelis Menten curves and linear transformations"
 ThisVersion <- 0.5
 
