@@ -79,9 +79,14 @@ ui <- fluidPage(
             tags$br(),
             "►Load your own data for fitting as csv, txt or xlsx files (the app will detect the format)",
             tags$br(),
-            "►The supplied data shows the expected data layout"
+            "►The supplied data shows the expected data layout",
+            tags$br(),
+            "►An option is provided to show a Scatchard plot which is used in receptor-ligand binding analysis",
+            tags$br(),
+            "►However, the same nonlinear curve fitting of binding assays can be used to find Bmax and Kd (equivalent to Vmax and Km)",
+            tags$br(),
+            "►You can also see that the Scatchard plot is related to the Eadie-Hofstee plot, where the x and y axis have been switched"
           )),
-          # tags$img(src = "Table1.png", width = 700, height = 400)
         )
       )
     )
